@@ -6,5 +6,6 @@ class Produto < ApplicationRecord
     validates :descricao, presence: true
     validates :preco, presence: true
     validates :quantidade, presence: true
+    validates :departamento, presence: true
 
 end
